@@ -1,0 +1,21 @@
+body{background-color: rgba(231, 231, 108, 0.753);}
+      
+header{background-size: cover;
+       background-image: url(../img/header.png);
+       background-position-y: 450px;
+       height: 400px;}
+
+.headd{text-align: center;
+       padding-top: 150px;
+       font-weight: bold;
+       text-transform: uppercase;}  
+       
+#tnav{display: none;}     
+
+.nav{margin: auto;}
+
+.nav-item{padding: 10px;
+          text-transform: uppercase;
+          font-weight: bold;}
+       
+       
