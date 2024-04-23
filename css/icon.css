@@ -7,9 +7,7 @@
     #tnav{display: inline;}
 
     .m{width: 15%;
-       border-radius: 15px;
-       padding-top: 5px;
-       float: right;} 
+       border-radius: 15px;} 
 
     .nav-item{display: contents;}
 
@@ -20,7 +18,13 @@
     footer{border-top-left-radius: 50%;
            background-color: rgba(231, 231, 108, 0.689);}
 
-    .nav{background: none;}   
-    
-    
+    .nav{background: none;} 
+
+    .ke{background-color: rgba(161, 159, 159, 0.801);
+        border-radius: 0px 0px 15px 15px;
+        }
+
+    h5{text-transform: uppercase;
+        font-weight: bold;}   
+         
 }
