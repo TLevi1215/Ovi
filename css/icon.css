@@ -1,0 +1,26 @@
+@media(max-width: 600px){
+    #nnav{display: block;
+          display: none;}
+
+    header{display: none;}   
+    
+    #tnav{display: inline;}
+
+    .m{width: 15%;
+       border-radius: 15px;
+       padding-top: 5px;
+       float: right;} 
+
+    .nav-item{display: contents;}
+
+    .lol{width: 95%;}
+
+    .webfooter{display: none;}
+
+    footer{border-top-left-radius: 50%;
+           background-color: rgba(231, 231, 108, 0.689);}
+
+    .nav{background: none;}   
+    
+    
+}

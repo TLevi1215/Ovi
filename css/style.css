@@ -1,4 +1,8 @@
 body{background-color: rgba(231, 231, 108, 0.753);}
+
+.lol{width: 80%;
+     margin: auto;
+     background-color: white;}
       
 header{background-size: cover;
        background-image: url(../img/header.png);
@@ -12,10 +16,18 @@ header{background-size: cover;
        
 #tnav{display: none;}     
 
-.nav{margin: auto;}
+.nav{margin: auto;
+     background-color: rgba(128, 128, 128, 0.541);
+     border-radius: 15px;}
 
 .nav-item{padding: 10px;
           text-transform: uppercase;
           font-weight: bold;}
+
+.webfooter ,footer{background-size: cover;
+       height: 300px;
+       background-color: rgba(161, 159, 159, 0.801);}      
+       
+      
        
        
