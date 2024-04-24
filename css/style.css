@@ -2,7 +2,8 @@ body{background-color: rgba(231, 231, 108, 0.753);}
 
 .lol{width: 80%;
      margin: auto;
-     background-color: white;}
+     background-color: white;
+     border-radius: 20px;}
       
 header{background-size: cover;
        background-image: url(../img/header.png);
@@ -10,23 +11,34 @@ header{background-size: cover;
        height: 400px;}
 
 .headd{text-align: center;
-       padding-top: 150px;
+       padding-top: 220px;
        font-weight: bold;
        text-transform: uppercase;}  
        
 #tnav{display: none;}     
 
 .nav{margin: auto;
-     background-color: rgba(128, 128, 128, 0.541);
      border-radius: 15px;}
 
 .nav-item{padding: 10px;
           text-transform: uppercase;
           font-weight: bold;}
 
-.webfooter ,footer{background-size: cover;
-       height: 300px;
-       background-color: rgba(161, 159, 159, 0.801);}      
+.webfooter{background-size: cover;
+           height: 300px;
+           background: -webkit-linear-gradient(-90deg, rgba(128, 128, 128, 0.5),white 20%);}
+
+.Csoportok{list-style: none;
+           text-align: center;
+           font-size: 22px;}
+            
+
+.kiscsoport,.Kozepso,.nagycsoport{text-align: center;
+                                  border:none;
+                                  border-radius: 15px;
+                                  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+                                  margin: 15px;
+                                  padding: 10px;}
        
       
        

@@ -15,8 +15,10 @@
 
     .webfooter{display: none;}
 
-    footer{border-top-left-radius: 50%;
-           background-color: rgba(231, 231, 108, 0.689);}
+    footer{background-size: cover;
+           height: 300px;
+           border-top-left-radius: 50%;
+           background:-webkit-linear-gradient(-65deg ,yellow,rgba(231, 231, 108, 0.689) 60%);}
 
     .nav{background: none;} 
 
