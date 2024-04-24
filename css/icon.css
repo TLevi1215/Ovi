@@ -24,5 +24,10 @@
 
     h5{text-transform: uppercase;
         font-weight: bold;}   
-         
+ 
+   footer ul{list-style: none;
+             text-align: right;
+             padding-top: 25%;
+             padding-right: 5%;}     
+
 }
