@@ -10,7 +10,7 @@
     <title>Kezdőlap</title>
 </head>
 <body>
-  <div class="lol">
+  <div class="container-fluid lol pb-4" >
     <div class="container-fluid">
     <header class="container-fluid bod2"><h1 class="headd">Óvoda</h1></header>
     <nav id="tnav"><a class="mt"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -58,47 +58,29 @@
             </li>
           </ul>
         </nav>
-        <div class="tab-content kt" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-            <h2>Kép</h2>
-            <p>
-              <h3 class="fs-5 fw-light">Feladat leÍrása</h3>
-            </p>
-          </div>
-          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-            <h2>Kép</h2>
-            <p>
-              <h3 class="fs-5 fw-light">Feladat leÍrása</h3>
-            </p>
-          </div>
-          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
-            <h2>Kép</h2>
-            <p>
-              <h3 class="fs-5 fw-light">Feladat leÍrása</h3>
-            </p>
-          </div>
-          <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
-            <h2>kép</h2>
-            <p>
-              <h3>Feladat leÍrása</h3>
-            </p>
-          </div>
-        </div>
-        <div class="container me">
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active fs-5" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Kép</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link fs-5" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Kép</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link fs-5" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Kép</button>
-          </li>
-          
-        </ul>
-     </div>
   
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/img/kerta1.jpg" class="d-block w-100 we" height="435px" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/img/keta2.jpg" class="d-block w-100 we" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/img/kerta3.jpg" class="d-block w-100 we" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
     <footer class="webfooter">
   <ul>
     <li>8492 Kerta, Kossuth utca 31</li>

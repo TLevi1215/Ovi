@@ -6,7 +6,7 @@
     
     #tnav{display: inline;}
 
-    .m{width: 15%;
+    .m{width: 20%;
        border-radius: 15px;} 
 
     .nav-item{display: contents;}
@@ -28,6 +28,8 @@
    footer ul{list-style: none;
              text-align: right;
              padding-top: 25%;
-             padding-right: 5%;}     
+             padding-right: 5%;} 
 
+    .we{height: 130px;}         
+                    
 }

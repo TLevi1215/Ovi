@@ -11,7 +11,7 @@ header{background-size: cover;
        height: 400px;}
 
 .headd{text-align: center;
-       padding-top: 220px;
+       padding-top: 40px;
        font-weight: bold;
        text-transform: uppercase;}  
        
@@ -54,3 +54,19 @@ header{background-size: cover;
 .me{margin-left:40%;}    
 
 .kt {margin-left: 48%;}
+
+#menza{min-height: 300px;
+       width: 100%;}
+
+table{border: 1px solid gray;
+     border-collapse: collapse;
+     text-align: center;
+     width: 80%;
+     margin: auto;}       
+
+td{border: 1px solid gray;
+   font-size: 0.90rem;}
+
+th{background-color:  rgba(231, 231, 108, 0.753);}
+
+.cim{font-weight: bold;}
