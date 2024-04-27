@@ -34,7 +34,18 @@
 
     #menza{display: none;}
 
-    .fg{}
+    .fg{font-weight: bold;}
     
-    .io{display: block;}                
+    .io{display: block;
+        text-align: center;
+        border:none;
+        border-radius: 15px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+        margin: 15px;
+        padding: 10px;}
+        
+    .io ul{list-style: none;
+           padding-top: 5px;} 
+           
+    .io li{padding: 5px;}       
 }
